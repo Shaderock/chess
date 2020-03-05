@@ -1,11 +1,5 @@
 const fields = document.querySelector("#fields");
 
-// приделать ход назад
-// приделать таймеры
-// вывести нормально сообщение об окончании
-// обновить ничью
-// приделать историю ходов
-
 class Pair {
     constructor(x, y) {
         this.x = x;
@@ -846,15 +840,6 @@ let game_field = array_chunk(field, 8);
 
 initial_draw_pieces();
 game_interface();
-
-/*for (let i = 0; i < chess_game.field.length; i++) {
-    for (let j = 0; j < chess_game.field[i].length; j++) {
-        if (chess_game.field[i][j] && !(chess_game.field[i][j] instanceof Queen || chess_game.field[i][j] instanceof King)) {
-            chess_game.field[i][j].clear();
-            chess_game.field[i][j] = 0;
-        }
-    }
-}*/
 
 function initial_draw_chessboard() {
     let inner = "";
