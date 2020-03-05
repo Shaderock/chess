@@ -1,0 +1,2 @@
+width 325px
+height 572px

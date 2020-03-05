@@ -1,0 +1,36 @@
+.field {
+    padding-bottom: 12.5%;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#fields {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.move {
+    background: url("pieces/move.svg") no-repeat;
+    background-size: 25%;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.field-white {
+    background-color: skyblue;
+}
+
+.field-black {
+    background-color: cadetblue;
+}
+
+.pawn_transformation {
+    background-color: aqua;
+}
+
+.check {
+    background-color: lightgreen;
+}
+
